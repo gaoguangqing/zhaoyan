@@ -9,10 +9,7 @@ a,a:hover{text-decoration:none;}
 #ctrboard{text-align:center; position:relative; z-index:100;}
 
 #start{width:480px; height:660px; padding:20px 0 0 0; background:transparent;}
-#start .logo{background:url(img_d/logo.png) no-repeat; background-size:contain; width:150px; height:60px; margin:0 auto;}
-#start .title{width:480px; height:161px; background:url(img_d/title.png) no-repeat; font-size:24px; margin:15px auto 156px;}
-#start .startgame{width:200px; height:81px; background:url(img_d/btn_start.png) no-repeat; padding:0; margin:15px auto; display:block;}
-#start .moregame{width:200px; height:67px; background:url(img_d/btn_more.png) no-repeat; padding:0; margin:15px auto; display:block;}
+#start .startgame{width:200px; height:81px; background:url(img_d/btn_start.png) no-repeat; position:relative; top:70%; left:50%; display:block;}
 #start a{color:white; background:#00ccff; padding:6px 10px; border-radius:5px; display:inline-block;}
 
 #play{font-size:24px; width:480px; height:500px; padding:180px 0 0 0; background:transparent;}

@@ -523,7 +523,7 @@ G = new P("gamescene", gameSize, {
 					,earth = game.root.addSprite(0, 521, "earth", "earth", "repeat-x")
 					,spikes = game.root.addGroup("spikes")
 					,player = game.root.addSpriteSheet(40, 496, "player", "player", "normal", {width:25,height:25})
-					,interval = [350, 104, 88, 104, 104, 88, 91, 119, 125, 113, 128, 104, 104, 350, 107, 85, 107, 104, 91, 91, 116, 122, 113, 125, 107, 107]
+					,interval = [350, 304, 388, 304, 204, 288, 291, 219, 325,313, 128, 104, 104, 350, 107, 85, 107, 104, 91, 91, 116, 122, 113, 125, 107, 107]
 					,spikesType = [1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, 0]
 					// ,interval = [350, 104, 88, 104]
 					// ,spikesType = [1, 1, 0, 1]
@@ -534,7 +534,7 @@ G = new P("gamescene", gameSize, {
 					if (spikesType[i] == 0) {
 						spikes.addSprite(totalInterval, 496, "brick", "spike"+(i), "normal");
 					} else {
-						spikes.addSprite(totalInterval, 471, "pipe", "spike"+(i), "normal");
+						spikes.addSprite(totalInterval, 491, "pipe", "spike"+(i), "normal");
 					}
 					scoreTable[i] = totalInterval;
 					totalInterval += 50;
