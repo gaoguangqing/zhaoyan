@@ -9,7 +9,7 @@ a,a:hover{text-decoration:none;}
 #ctrboard{text-align:center; position:relative; z-index:100;}
 
 #start{width:480px; height:660px; padding:20px 0 0 0; background:transparent;}
-#start .startgame{width:200px; height:81px; background:url(img_d/btn_start.png) no-repeat; position:relative; top:70%; left:50%; display:block;}
+#start .startgame{width:200px; height:81px; background:url(img_d/btn_start.png) no-repeat; position:relative; top:320px; left:60%; display:block;}
 #start a{color:white; background:#00ccff; padding:6px 10px; border-radius:5px; display:inline-block;}
 
 #play{font-size:24px; width:480px; height:500px; padding:180px 0 0 0; background:transparent;}
